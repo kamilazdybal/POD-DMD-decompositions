@@ -2,11 +2,11 @@
 
 In the summer of 2016 I've spent the two most wonderful months of my life as a stagiaire at the von Karman Institute for Fluid Dynamics in Belgium.
 
-I was working on data decomposition methods: POD and DMD applied to numerical and experimental data. I developed Matlab GUI for performing data decomposition.
+I was working on data decomposition methods: **POD** and **DMD** applied to numerical and experimental data. I developed Matlab GUI for performing data decomposition.
 
 ## Repo
 
-This repository is a collection of my work done, which is divided into:
+This repository is a collection of my work done and is divided into:
 
 `training code`
 
@@ -16,4 +16,4 @@ This repository is a collection of my work done, which is divided into:
 
 ## A note for Belgium
 
-![Screenshot](/DWGs/belgique.jpg)
+![Screenshot](/DWGs/belgique.JPG)
