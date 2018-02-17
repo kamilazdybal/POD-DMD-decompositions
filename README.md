@@ -4,6 +4,8 @@ In the summer of 2016 I've spent the two most wonderful months of my life as a s
 
 I was working on data decomposition methods: **POD** and **DMD** applied to numerical and experimental data. I developed Matlab GUI for performing data decomposition.
 
+My supervisor was Miguel Alfonso Mendez.
+
 ## Repo
 
 This repository is a collection of my work done and is divided into:
