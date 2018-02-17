@@ -11,7 +11,7 @@ Problem:
 	* suppose the pressure gradient in a Poiseuille flow is not constant but changing sinusoidally in time
 	* how will the velocity profile change in time?
 
-Program calculates the pulsating velocity profile in three ways:
+Program computes the pulsating velocity profile in three ways:
 
 	* using original solution from Asymptotic Complex Solution
 	* using approximation by Eigenfunction Expansion
