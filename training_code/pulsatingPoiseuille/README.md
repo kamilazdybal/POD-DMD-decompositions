@@ -1,10 +1,10 @@
 # Pulsating Poiseuille flow
 
-In this exercise, I was using *Proper Orthogonal Decomposition* (POD) and *Eigenfunction Expansion* to approximate the velocity profile in the pulsating Poiseuille flow.
+In this exercise, I was using *Proper Orthogonal Decomposition* (POD) and *Eigenfunction Expansion* to approximate the velocity profile of the pulsating Poiseuille flow.
 
 I compared the approximation with one, two and three first modes.
 
-## Problem description
+## Exercise description
 
 Problem:
 
