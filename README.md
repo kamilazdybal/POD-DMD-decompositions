@@ -1,12 +1,12 @@
 # Short Training Programme at the von Karman Institute for Fluid Dynamics
 
-In the summer of 2016 I've spent the two most wonderful months of my life as a stagiaire at the von Karman Institute for Fluid Dynamics in Belgium.
+In the summer of 2016 I've spent the two most wonderful months of my life as a stagiaire at the *von Karman Institute for Fluid Dynamics* in Belgium.
 
 I was working on data decomposition methods: **POD** and **DMD** applied to numerical and experimental data. I developed Matlab GUI for performing data decomposition.
 
-My supervisor was Miguel Alfonso Mendez.
+The supervisor of my work was Miguel Alfonso Mendez.
 
-## Repo
+## Repository
 
 This repository is a collection of my work done and is divided into:
 
@@ -17,5 +17,9 @@ This repository is a collection of my work done and is divided into:
 `final report`
 
 ## A note for Belgium
+
+Apart from being able to develop huge appreciation for linear algebra and Matlab this summer, I also fell in love with Belgium, in particular with Rhode-Saint-Genèse and Forêt de Soignes.
+
+Here's a picture of Belgium that I carry in my heart, along with many others:
 
 ![Screenshot](/DWGs/belgique.JPG)
