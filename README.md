@@ -16,7 +16,7 @@ This repository is a collection of my work done and is divided into:
 
 `final report`
 
-## A note for Belgium
+## Une note pour la Belgique
 
 Apart from developing huge appreciation for linear algebra and Matlab this summer, I also fell in love with Belgium, and in particular with Rhode-Saint-Genèse and Forêt de Soignes.
 
