@@ -20,16 +20,4 @@ This repository is a collection of my work done and is divided into:
 
 Apart from developing huge appreciation for linear algebra and Matlab this summer, I also fell in love with Belgium, and in particular with Rhode-Saint-Genèse and Forêt de Soignes.
 
-Here's a picture of Belgium that I carry in my heart, along with many others:
-
 ![Screenshot](/DWGs/belgique.JPG)
-
-> Avec un ciel si bas qu'un canal s'est perdu  
-Avec un ciel si bas qu'il fait l'humilité  
-Avec un ciel si gris qu'un canal s'est pendu  
-Avec un ciel si gris qu'il faut lui pardonner  
-Avec le vent du nord qui vient s'écarteler  
-Avec le vent du nord écoutez-le craquer  
-Le plat pays qui est le mien  
-
-> __*Jacques Brel*__  
