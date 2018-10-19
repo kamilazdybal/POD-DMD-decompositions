@@ -4,7 +4,7 @@
 
 In the summer of 2016 I've spent the two most wonderful months of my life as a stagiaire at the *von Karman Institute for Fluid Dynamics* in Belgium.
 
-I applied two data decomposition methods: **POD** (*Proper Orthogonal Decomposition*) and **DMD** (*Dynamic Mode Decomposition*) to extract temporal and spatial features from numerical or experimental data for fluid flows. I developed a beta-version Matlab GUI for performing data decomposition.
+I applied two data decomposition methods: **Proper Orthogonal Decomposition** (POD) and **Dynamic Mode Decomposition** (DMD) to extract temporal and spatial features from numerical or experimental data for fluid flows. I developed a beta-version Matlab GUI for performing data decomposition.
 
 The supervisor of my work was Miguel A. MENDEZ.
 
