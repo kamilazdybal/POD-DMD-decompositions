@@ -1,24 +1,23 @@
 function varargout = POD_DMD_beta_1(varargin)
-% POD_DMD_BETA_1 MATLAB code for POD_DMD_beta_1.fig
+%% POD_DMD_BETA_1 MATLAB code for POD_DMD_beta_1.fig
+    % Begin initialization code - DO NOT EDIT
+    gui_Singleton = 1;
+    gui_State = struct('gui_Name',       mfilename, ...
+                       'gui_Singleton',  gui_Singleton, ...
+                       'gui_OpeningFcn', @POD_DMD_beta_1_OpeningFcn, ...
+                       'gui_OutputFcn',  @POD_DMD_beta_1_OutputFcn, ...
+                       'gui_LayoutFcn',  [] , ...
+                       'gui_Callback',   []);
+    if nargin && ischar(varargin{1})
+        gui_State.gui_Callback = str2func(varargin{1});
+    end
 
-% Begin initialization code - DO NOT EDIT
-gui_Singleton = 1;
-gui_State = struct('gui_Name',       mfilename, ...
-                   'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @POD_DMD_beta_1_OpeningFcn, ...
-                   'gui_OutputFcn',  @POD_DMD_beta_1_OutputFcn, ...
-                   'gui_LayoutFcn',  [] , ...
-                   'gui_Callback',   []);
-if nargin && ischar(varargin{1})
-    gui_State.gui_Callback = str2func(varargin{1});
-end
-
-if nargout
-    [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
-else
-    gui_mainfcn(gui_State, varargin{:});
-end
-% End initialization code - DO NOT EDIT
+    if nargout
+        [varargout{1:nargout}] = gui_mainfcn(gui_State, varargin{:});
+    else
+        gui_mainfcn(gui_State, varargin{:});
+    end
+    % End initialization code - DO NOT EDIT
 
 % --- Executes just before POD_DMD_beta_1 is made visible.
 function POD_DMD_beta_1_OpeningFcn(hObject, eventdata, handles, varargin)

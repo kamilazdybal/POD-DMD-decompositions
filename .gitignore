@@ -1,0 +1,9 @@
+*.md~
+*.m~
+*.aux
+*.log
+*.synctex.gz
+*.toc
+
+
+

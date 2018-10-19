@@ -19,56 +19,33 @@ function varargout = POD_OR_DMD(varargin)
     end
     % End initialization code - DO NOT EDIT
 
-
-% --- Executes just before POD_OR_DMD is made visible.
 function POD_OR_DMD_OpeningFcn(hObject, eventdata, handles, varargin)
-% This function has no output args, see OutputFcn.
-% hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to POD_OR_DMD (see VARARGIN)
+%% --- Executes just before POD_OR_DMD is made visible.
+    % Choose default command line output for POD_OR_DMD
+    handles.output = hObject;
 
-% Choose default command line output for POD_OR_DMD
-handles.output = hObject;
+    % Update handles structure
+    guidata(hObject, handles);
 
-% Update handles structure
-guidata(hObject, handles);
-
-% UIWAIT makes POD_OR_DMD wait for user response (see UIRESUME)
-% uiwait(handles.figure1);
-
-
-% --- Outputs from this function are returned to the command line.
 function varargout = POD_OR_DMD_OutputFcn(hObject, eventdata, handles) 
-% varargout  cell array for returning output args (see VARARGOUT);
-% hObject    handle to figure
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
+%% --- Outputs from this function are returned to the command line.
+    % Get default command line output from handles structure
+    varargout{1} = handles.output;
 
-% Get default command line output from handles structure
-varargout{1} = handles.output;
-
-
-% --- Executes on button press in DMD.
 function DMD_Callback(hObject, eventdata, handles)
-% hObject    handle to DMD (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-POD_DMD_beta_1
-disp(['You have chosen DMD.'])
-disp([' ']);
-String_Dec_Type = 'DMD';
-setappdata(0,'String_Dec_Type',String_Dec_Type);
-close(POD_OR_DMD)
+%% --- Executes on button press in DMD.
+    POD_DMD_beta_1
+    disp(['You have chosen DMD.'])
+    disp([' ']);
+    String_Dec_Type = 'DMD';
+    setappdata(0,'String_Dec_Type',String_Dec_Type);
+    close(POD_OR_DMD)
 
-% --- Executes on button press in POD.
 function POD_Callback(hObject, eventdata, handles)
-% hObject    handle to POD (see GCBO)
-% eventdata  reserved - to be defined in a future version of MATLAB
-% handles    structure with handles and user data (see GUIDATA)
-POD_DMD_beta_1
-disp(['You have chosen POD.'])
-disp([' ']);
-String_Dec_Type = 'POD';
-setappdata(0,'String_Dec_Type',String_Dec_Type);
-close(POD_OR_DMD)
+%% --- Executes on button press in POD.
+    POD_DMD_beta_1
+    disp(['You have chosen POD.'])
+    disp([' ']);
+    String_Dec_Type = 'POD';
+    setappdata(0,'String_Dec_Type',String_Dec_Type);
+    close(POD_OR_DMD)

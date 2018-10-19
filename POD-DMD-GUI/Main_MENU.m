@@ -21,7 +21,6 @@ function varargout = Main_MENU(varargin)
 
 function Main_MENU_OpeningFcn(hObject, eventdata, handles, varargin)
 %% --- Executes just before Main_MENU is made visible.
-
     % Choose default command line output for Main_MENU
     handles.output = hObject;
 
@@ -30,7 +29,6 @@ function Main_MENU_OpeningFcn(hObject, eventdata, handles, varargin)
 
 function varargout = Main_MENU_OutputFcn(hObject, eventdata, handles) 
 %% --- Outputs from this function are returned to the command line.
-
     % Get default command line output from handles structure
     varargout{1} = handles.output;
 
@@ -44,47 +42,29 @@ function varargout = Main_MENU_OutputFcn(hObject, eventdata, handles)
 function OneDScalar_Callback(hObject, eventdata, handles)
 %% --- Executes on button press in OneDScalar.
     clc
-
-	% Open choice window POD/DMD:
 	POD_OR_DMD
-
-	% Saves your choice of 1DS:
-	disp(['You have chosen 1D scalar.']); % display message
+	disp(['You have chosen 1D scalar.']);
 	disp([' ']);
-	String_An_Type = '1DS'; % create variable
-	setappdata(0, 'String_An_Type', String_An_Type); % store under root
-
-	% Close Main_MENU
+	String_An_Type = '1DS';
+	setappdata(0, 'String_An_Type', String_An_Type);
 	close(Main_MENU)
 
 function TwoDScalar_Callback(hObject, eventdata, handles)
 %% --- Executes on button press in TwoDScalar.
     clc
-
-	% Open choice window POD/DMD:
 	POD_OR_DMD
-
-	% Saves your choice of 2DS:
-	disp(['You have chosen 2D scalar.']); % display message
+	disp(['You have chosen 2D scalar.']);
 	disp([' ']);
-	String_An_Type = '2DS'; % create variable
-	setappdata(0, 'String_An_Type', String_An_Type); % store under root
-
-	% Close Main_MENU
+	String_An_Type = '2DS';
+	setappdata(0, 'String_An_Type', String_An_Type);
 	close(Main_MENU)
 
 function TwoDVector_Callback(hObject, eventdata, handles)
 %% --- Executes on button press in TwoDVector.
     clc
-
-	% Open choice window POD/DMD:
 	POD_OR_DMD
-
-	% Saves your choice of 2DV:
-	disp(['You have chosen 2D vector.']); % display message
+	disp(['You have chosen 2D vector.']);
 	disp([' ']);
-	String_An_Type = '2DV'; % create variable
-	setappdata(0, 'String_An_Type', String_An_Type); % store under root
-
-	% Close Main_MENU
+	String_An_Type = '2DV';
+	setappdata(0, 'String_An_Type', String_An_Type);
 	close(Main_MENU)
