@@ -19,46 +19,48 @@ function varargout = POD_DMD_beta_1(varargin)
     end
     % End initialization code - DO NOT EDIT
 
-% --- Executes just before POD_DMD_beta_1 is made visible.
 function POD_DMD_beta_1_OpeningFcn(hObject, eventdata, handles, varargin)
+%% --- Executes just before POD_DMD_beta_1 is made visible.
+    % Choose default command line output for POD_DMD_beta_1
+    handles.output = hObject;
 
-% Choose default command line output for POD_DMD_beta_1
-handles.output = hObject;
+    % Update handles structure
+    guidata(hObject, handles);
 
-% Update handles structure
-guidata(hObject, handles);
-
-% --- Outputs from this function are returned to the command line.
 function varargout = POD_DMD_beta_1_OutputFcn(hObject, eventdata, handles) 
+%% --- Outputs from this function are returned to the command line.
+    % Get default command line output from handles structure
+    varargout{1} = handles.output;
 
-% Get default command line output from handles structure
-varargout{1} = handles.output;
-
-% --- Executes on button press in Import_DATA.
 function Import_DATA_Callback(hObject, eventdata, handles)
+%% --- Executes on button press in Import_DATA.
+    IMPORT
 
-IMPORT
-
-% --- Executes on button press in Decompose.
 function Decompose_Callback(hObject, eventdata, handles)
+%% --- Executes on button press in Decompose.
 
-% Window for including user-specified values:
-prompt = {'Specify timestep dt:'};
-dlg_title = 'Specify timestep';
-num_lines = 1;
-defaultans = {'0.01'};
-answer = inputdlg(prompt,dlg_title,num_lines,defaultans);
+    % Window for including user-specified values:
+    prompt = {'Specify timestep dt:'};
+    dlg_title = 'Specify timestep';
+    num_lines = 1;
+    defaultans = {'0.01'};
+    answer = inputdlg(prompt,dlg_title,num_lines,defaultans);
+    dt = str2num(char(answer{1}));
+    setappdata(0,'dt',dt);
 
-dt = str2num(char(answer{1}));
-setappdata(0,'dt',dt);
+    % Read user's choices:
+    String_Dec_Type = getappdata(0,'String_Dec_Type');
+    String_An_Type = getappdata(0,'String_An_Type');
 
-% Read user's choices:
-String_Dec_Type = getappdata(0,'String_Dec_Type');
-String_An_Type = getappdata(0,'String_An_Type');
+%% OPTIONS:
+%{
+--- 1D Scalar (OneDScalar)
+--- 2D Scalar (TwoDScalar)
+--- 2D Vector (TwoDVector)
+%}
 
-% Checks if he's got all the info he needs for specified dimension:
 if String_An_Type == '1DS'
-
+%% 1DS
     try
     dt = getappdata(0,'dt');
     D = getappdata(0,'D');
@@ -87,7 +89,7 @@ if String_An_Type == '1DS'
     end
 
 elseif String_An_Type == '2DS'
-    
+%% 2DS
     try
 
     dt = getappdata(0,'dt');
@@ -120,7 +122,7 @@ elseif String_An_Type == '2DS'
     end
     
 elseif String_An_Type == '2DV'
-    
+%% 2DV
     try
 
     dt = getappdata(0,'dt');
@@ -156,17 +158,13 @@ elseif String_An_Type == '2DV'
     end
 end
 
-% --- Executes on button press in export_results.
 function export_results_Callback(hObject, eventdata, handles)
+%% --- Executes on button press in export_results.
+    EXPORT_DATA
 
-EXPORT_DATA
-
-% --- Executes on button press in exit.
 function exit_Callback(hObject, eventdata, handles)
-
-disp([' ']);
-disp(['================']);
-disp(['GUI closed.'])
-disp(['================']);
-
-close(POD_DMD_beta_1)
+%% --- Executes on button press in exit.
+    disp([' ']);
+    disp(['GUI closed.'])
+    disp([' ']);
+    close(POD_DMD_beta_1)

@@ -26,7 +26,7 @@ Provide matrix `D` in the above mentioned format and a vector `y` specifying the
 
 Provide matrix `D` in the above mentioned format and two vectors `X`, `Y` specifying the 2-dimensional space discretization.
 
-*Example dataset: `Pressure(x, y)`*
+*Example dataset: `Pressure(x,y)`*
 
 ### 2D Vector
 
@@ -40,6 +40,10 @@ Provide two matrices `U` and `V` in the above mentioned format and two vectors `
 Main_MENU
 	POD_OR_DMD
 		POD_DMD_beta_1
+		* Import Data
+		* Decompose
+		* Export Results
+		* Exit
 ```
 
 ## `Main_MENU`
@@ -52,14 +56,6 @@ Allows to chose type type of dataset from:
 2D Vector
 ```
 
-### Example:
-
-1D scalar data might be one-dimensional pressure distribution.
-
-2D scalar data might be two-dimensional pressure distribution.
-
-2D vector data might be two-dimensional velocity field.
-
 ## `POD_OR_DMD`
 
 Allows to chose decomposition method from:
@@ -68,3 +64,8 @@ Allows to chose decomposition method from:
 POD (Proper Orthogonal Decomposition)
 DMD (Dynamic Mode Decomposition)
 ```
+
+## `POD_DMD_beta_1`
+
+Allows to import data, perform the decomposition and export the results.
+
