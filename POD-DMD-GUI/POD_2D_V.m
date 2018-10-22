@@ -56,8 +56,8 @@ function [D_POD, DU_POD, DS_POD, DV_POD] = ...
          D_POD(D_POD == 0) = NaN;
 
         else
-            disp(['Wrong matrix dimensions.'])
+        disp(['Wrong matrix dimensions.'])
 
-            U_POD = NaN; V_POD = NaN; UU_POD = NaN; VU_POD = NaN; ...
-            UV_POD = NaN; VV_POD = NaN;
+        U_POD = NaN; V_POD = NaN; UU_POD = NaN; VU_POD = NaN; ...
+        UV_POD = NaN; VV_POD = NaN;
 end
