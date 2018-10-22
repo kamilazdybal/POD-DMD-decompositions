@@ -42,7 +42,7 @@ function POD_Manual_Callback(hObject, eventdata, handles)
         r = getappdata(0, 'rank_POD');
 
         % Run the 2D POD function:
-        [U_POD, UU_POD, UV_POD, US_POD] = POD_1D_S(D, y);
+        [D_POD, U_POD, S_POD, V_POD] = POD_1D_S(D, y);
 
         % Save function outputs for later:
         setappdata(0, 'D_POD', D_POD);

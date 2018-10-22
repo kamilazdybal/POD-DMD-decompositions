@@ -9,7 +9,7 @@ function [D_POD, U_POD, V_POD, S_POD] = ...
     
         %% Check the sizes of matrices D and y:   
         len_D = size(D,1);
-        wid_D = size(U,2);
+        wid_D = size(D,2);
         len_y = length(y);
         
         if len_D == len_y
