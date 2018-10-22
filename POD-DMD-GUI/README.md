@@ -46,7 +46,7 @@ Main_MENU
 		* Exit
 ```
 
-## `Main_MENU`
+### `Main_MENU`
 
 Allows to chose type type of dataset from:
 
@@ -56,7 +56,7 @@ Allows to chose type type of dataset from:
 2D Vector
 ```
 
-## `POD_OR_DMD`
+### `POD_OR_DMD`
 
 Allows to chose decomposition method from:
 
@@ -65,7 +65,7 @@ POD (Proper Orthogonal Decomposition)
 DMD (Dynamic Mode Decomposition)
 ```
 
-## `POD_DMD_beta_1`
+### `POD_DMD_beta_1`
 
 Allows to import data, perform the decomposition and export the results.
 
