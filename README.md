@@ -18,8 +18,8 @@ This repository is a collection of my work done and is divided into:
 
 `final report`
 
+![Screenshot](/DWGs/GIF_2D_POD_r3.gif)
+
 ## Une note pour la Belgique
 
 Apart from developing huge appreciation for linear algebra and Matlab this summer, I also fell in love with Belgium, and in particular with Rhode-Saint-Genèse and Forêt de Soignes.
-
-![Screenshot](/DWGs/belgique.JPG)
