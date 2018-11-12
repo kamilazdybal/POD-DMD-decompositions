@@ -2,7 +2,7 @@
 
 > ![Screenshot](/DWGs/GIF_2D_POD_r3.gif)
 >
-> *Proper Orthogonal Decomposition of numerical data with rank=3*
+> *Proper Orthogonal Decomposition (POD) rank=3 approximation to the flow behind a cylinder*
 
 ## Short Training Programme at the von Karman Institute for Fluid Dynamics
 
