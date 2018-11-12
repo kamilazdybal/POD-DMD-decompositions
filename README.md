@@ -8,9 +8,7 @@ In the summer of 2016 I've spent the two most wonderful months of my life as a s
 
 I applied two data decomposition methods: **Proper Orthogonal Decomposition** (POD) and **Dynamic Mode Decomposition** (DMD) to extract temporal and spatial features from numerical or experimental data for fluid flows.
 
-For the details of my work download the [final report](https://github.com/camillejr/POD-DMD-decompositions/raw/master/final-report/stagiaire_report_kzdybal.pdf).
-
-The supervisor of my work was Miguel A. MENDEZ.
+The supervisor of my work was Miguel A. Mendez. To see the details, download my final report [here](https://github.com/camillejr/POD-DMD-decompositions/raw/master/final-report/stagiaire_report_kzdybal.pdf).
 
 ## Repository
 
