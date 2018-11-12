@@ -1,6 +1,8 @@
 # POD and DMD decomposition of numerical and experimental data
 
-![Screenshot](/DWGs/GIF_2D_POD_r3.gif)
+> ![Screenshot](/DWGs/GIF_2D_POD_r3.gif)
+>
+> *Proper Orthogonal Decomposition of numerical data with rank=3*
 
 ## Short Training Programme at the von Karman Institute for Fluid Dynamics
 
