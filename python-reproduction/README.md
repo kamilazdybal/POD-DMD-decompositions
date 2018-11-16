@@ -3,4 +3,4 @@
 
 ## Pulsating Poiseuille flow
 
-> ![Screenshot](/pulsating-poiseuille.gif)
+> ![Screenshot](pulsating-poiseuille.gif)
