@@ -54,13 +54,13 @@ Phi = sqrt(Phi_2(1:nunit, :).^2 + Phi_2(nunit+1:end, :).^2);
 Phi(Phi == 0) = NaN;
 
 figure(1)
-subplot(r,3,2), scatter(x, y, 4, real(Phi(:, 1)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1}, mode 1']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
+subplot(r,3,2), scatter(x, y, 4, real(Phi(:, 1)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1} W, mode 1']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
 ax = gca; ax.FontSize = fnts;
-subplot(r,3,5), scatter(x, y, 4, real(Phi(:, 2)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1}, mode 2']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
+subplot(r,3,5), scatter(x, y, 4, real(Phi(:, 2)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1} W, mode 2']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
 ax = gca; ax.FontSize = fnts;
-subplot(r,3,8), scatter(x, y, 4, real(Phi(:, 3)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1}, mode 3']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
+subplot(r,3,8), scatter(x, y, 4, real(Phi(:, 3)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1} W, mode 3']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
 ax = gca; ax.FontSize = fnts;
-subplot(r,3,11), scatter(x, y, 4, real(Phi(:, 4)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1}, mode 4']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
+subplot(r,3,11), scatter(x, y, 4, real(Phi(:, 4)), 'filled'), title(['Phi_2 = X_2 V_r \Sigma_r^{-1} W, mode 4']), axis(['equal']), xlim([min(x) max(x)]), ylim([min(y) max(y)]), colorbar
 ax = gca; ax.FontSize = fnts;
 
 % Residual:
