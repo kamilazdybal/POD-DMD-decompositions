@@ -22,9 +22,7 @@ else
     sim_t = 30;
 end
 
-
 V_M=sqrt(U_DMD.^2+V_DMD.^2);
-
 
 c_min=min(V_M(:));
 c_max=max(V_M(:));
@@ -36,12 +34,6 @@ defaultans = {num2str(c_min),num2str(c_max)};
 answer = inputdlg(prompt,dlg_title,num_lines,defaultans);
 c_min=str2num(answer{1});
 c_max=str2num(answer{2});
-
-
-
-
-
-
 
 % .gif of a pulsating velocity profile with approximations: =========
 for i = 1:1:sim_t

@@ -78,8 +78,6 @@ print(hfig2,'-dpng', '-r500', ['Temp_Modes_2D_DMD_r', ...
 cd ..
 pause
 
-
-
 hfig3 = figure(3);
 
 % Definition of the circle in a complex plane:
@@ -101,8 +99,6 @@ ylim([-1.2 1.1])
 print(hfig3,'-dpng', '-r500', 'Eigenvalues_circle.png')
 pause
 close(3)
-
-
 
 close(hfig1)
 close(hfig2)
